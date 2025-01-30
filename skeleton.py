@@ -30,9 +30,9 @@ class CrewRoster:
 roster=CrewRoster() #Empty Crew roster created
 
     # TODO: Uncomment and implement methods
-    # roster.add_member("Alice", "Engineer", 5)
-    # roster.add_member("Bob", "Pilot", 10)
-    # roster.list_crew()
+    roster.add_member("Alice", "Engineer", 5)
+    roster.add_member("Bob", "Pilot", 10)
+    roster.list_crew()
 
-    # roster.remove_member("Alice")
-    # roster.list_crew()
+    roster.remove_member("Alice")
+    roster.list_crew()
