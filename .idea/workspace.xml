@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25a8240e-dda9-40c4-ac9a-783ea997d53b" name="Changes" comment="Submission folder and readme added">
-      <change beforePath="$PROJECT_DIR$/.idea/PyBootcampHW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyBootcampHW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
       <updated>1738047629451</updated>
       <workItem from="1738266973395" duration="913000" />
       <workItem from="1738267899509" duration="51000" />
-      <workItem from="1738289906477" duration="315000" />
+      <workItem from="1738289906477" duration="1518000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
