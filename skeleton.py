@@ -15,14 +15,21 @@ class CrewRoster:
 
     def add_member(self, name, role, experience):
         """Creates a new crew member and adds to roster."""
+        self.crew.append(CrewMember(name, role, experience))
+
 
 
     def remove_member(self, name):
         """Removes a crew member by name."""
+        for crew in self.crew:
+            if crew.name == name:
+                self.crew.remove(crew)
 
 
     def list_crew(self):
         """Prints all crew members."""
+        for crew in self.crew:
+            print(crew)
 
 
 # === TEST CODE ===
@@ -30,9 +37,9 @@ class CrewRoster:
 roster=CrewRoster() #Empty Crew roster created
 
     # TODO: Uncomment and implement methods
-    # roster.add_member("Alice", "Engineer", 5)
-    # roster.add_member("Bob", "Pilot", 10)
-    # roster.list_crew()
+roster.add_member("Alice", "Engineer", 5)
+roster.add_member("Bob", "Pilot", 10)
+roster.list_crew()
 
-    # roster.remove_member("Alice")
-    # roster.list_crew()
+roster.remove_member("Alice")
+roster.list_crew()
